@@ -11,11 +11,11 @@ coreos:
     - name: fleet.service
       command: start
   etcd:
-    discovery: https://discovery.etcd.io/d259912ba681a5ce1731e55243f13fa3
+    discovery: https://discovery.etcd.io/2df855d76eebc41bf0f40a099f89a49a
     addr: "$private_ipv4:4001"
     peer-addr: "$private_ipv4:7001"
 
   fleet:
     public-ip: "$private_ipv4"
 ssh_authorized_keys:
-  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDtjTZxWXlJNTcNLq45F7hC8fY05vmgnyyV5hM1UpEE76CklvwO9uNxbMl7AUDL2Z8ySNcauyrfE1yEf96JwW1aitnFSIS+iaVIMU2a/v1FhM27OLYCe+e9OJ2YO/Y8etxkEwWmvmEHIDUWLac5mqAG1jzMthi2mzlVuREWmcsWs71KL3JMUojpQPwBzZKMRQbQDlmu828UZ/bpBJjhb+KtbWGoaMP7beJ+uLwwppgYdjtTXK+3jDj5pIeT/o0/9PrntV111vdxFMxuH7P6mN/+O+iNVAOLyCBsEppxrsg+5wMimcfu38jQJX5167QC6oKtIibHKrxiWXlLTHkLsQnH rob@ubuntu0
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDUdPdB+rxCWr+DAk1G56271sKjj+LY1EkqXA+yB9RA8zqWBNgO16YX8vlXX0hMZw+nPsAh8G7Vvuzv2ir4OoW7dZX72RgPvZO927DhuuAgkDgUzQwD3eyONB9vK8cPrwtrlBgZqUUviQdkZTnK66bQ9SCvtexVpG0St6Z7SdTnNXEgilMkv+FO/COWx5Kxt0Ewa352FxX3XA1f+OYoqVZXXo doC2i3jK9luTgZwCTXXdyAblVuH3lmsylvoq/7lexOQN7u4kZ5jMAiT8UeulW5wnfwEjs7x8ucV9RP7+8EcVqstJYMRtrnifjkH7owYgAna7y3Cay0icSQiTZx7b0l ZeroDeth@macOS.local
